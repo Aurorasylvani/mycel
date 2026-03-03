@@ -35,7 +35,7 @@
     const playBtn = document.getElementById('playBtn');
     const audio = document.getElementById('myAudio');
     const text = document.getElementById('nowPlaying');
-
+    audio.volume = 0.09;
     playBtn.addEventListener('click', function() {
         audio.play();
         text.style.display = 'block';
